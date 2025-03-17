@@ -20,7 +20,10 @@ def calcular_novo_salario():
 # Executa a função
 calcular_novo_salario()
 
-# calcula o CR de cada diciplina de pela media delas 
+# calcula o CR de cada diciplina de pela media delas,
+#  (programa desemvolvido para receber a quantidade de disciplinas cursadas,
+#    ler a media de cada diciplina e ao final calcular o coeficiente de rendimento)
+
 n = int(input('Digite a quantidade de disciplinas cursadas: '))
 total = 0  # Variável para acumular as notas
 
