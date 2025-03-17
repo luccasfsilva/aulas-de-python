@@ -33,3 +33,17 @@ for i in range(n):
 
 cr = total / n  # Calcula a média geral (CR)
 print(f'O coeficiente de rendimento (CR) é: {cr}')
+
+# codigo que mostra numero 1 e vai continuando ate o numero que o usuario escolheu e onde esteiver os multiplos de 5(foo) e 7 (bar)
+
+n = int(input('Digite um número: '))
+
+for i in range(1, n + 1):
+    if i % 5 == 0 and i % 7 == 0:
+        print('foo bar')  # Múltiplos de 5 e 7
+    elif i % 5 == 0:
+        print('foo')  # Múltiplos de 5
+    elif i % 7 == 0:
+        print('bar')  # Múltiplos de 7
+    else:
+        print(i)  # Outros números
